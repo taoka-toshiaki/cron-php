@@ -1,0 +1,27 @@
+[
+    {
+        "m":"*",
+        "d":"*",
+        "H":"9",
+        "i":"0",
+        "w":[1,1,1,1,1,1,1],
+        "command":"cd /var/www/html/example.com/lib;/usr/bin/php tw_rss.php example"
+    },
+    {
+        "m":"*",
+        "d":"*",
+        "H":"*",
+        "i":"*/5",
+        "w":[1,1,1,1,1,1,1],
+        "command":"cd /var/www/html/example.com/lib;/usr/bin/php tw_line.php example"
+    },
+    {
+        "m":"*",
+        "d":"*",
+        "H":"9,2,15",
+        "i":"0",
+        "w":[1,1,1,1,1,1,1],
+        "command":"cd /var/www/html/example.com/lib;/usr/bin/php tw_news.php example"
+    }        
+]
+
